@@ -35,7 +35,7 @@ module.exports = (bot, knex, config, commands) => {
     }));
 
     let message = isPaginated
-      ? `**Log files for <@${userId}>** (page **${page}/${maxPage}**, showing logs **${start + 1}-${end}/${totalUserThreads}**):`
+      ? `**Log files for <@${userId}>** (page **${page}/${maxPage}**, showing logs **${start + 1}-${end}/${totalUserThreads} reeeee**):`
       : `**Log files for <@${userId}>:**`;
 
     message += `\n${threadLines.join('\n')}`;
